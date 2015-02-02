@@ -20,7 +20,7 @@
   </div>
 </header>
  -->
-
-<header class="mainheader text-center">
-  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_openfader.png" width="200">
-</header>
+  <header class="mainheader">
+      <div class="pull-right"><small><span class="glyphicon glyphicon-download-alt"></span> <a href="http://download.openfader.org/openfader-pressbook.pdf">dossier de presse</a></small> / <small><span class="glyphicon glyphicon-envelope"></span> <a href="/contact">contact</a></small></div>
+      <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_openfader.png" width="200"></p></a>
+  </header>
