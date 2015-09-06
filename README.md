@@ -1,4 +1,4 @@
 openfader
 =========
 
-wp theme for openfader.org
+wall posters static page
