@@ -11,8 +11,16 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
-.gallery > * {
-  flex-basis: 200px;
+.gallery  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : flex-start;
+  align-content: center;
+  > * {
+    flex: 0;
+    flex-basis: 200px;
+    margin: 0 1em 1em 0;
+  }
 }
 
 img {
