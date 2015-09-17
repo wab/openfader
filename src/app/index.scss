@@ -11,15 +11,27 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+   > * {
+    flex: 1;
+   }
+
+}
+
 .gallery  {
+  flex: 2;
   display: flex;
   flex-wrap: wrap;
   justify-content : flex-start;
   align-content: center;
   > * {
     flex: 1;
-    //flex-basis: 200px;
+    flex-basis: 200px;
     margin: 0 1em 1em 0;
+    background: #eee;
   }
 }
 
