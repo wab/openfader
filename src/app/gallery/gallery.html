@@ -1,0 +1,9 @@
+
+<div ng-repeat="soiree in g.soirees | orderBy : '-id'">
+<p>
+    <img src="assets/thumbnails/{{ soiree.slug }}.jpg" alt="{{ soiree.name }}">
+</p>
+<p>
+    <a href="#/{{ soiree.slug }}" class="btn btn-primary"><i class="fa fa-search-plus"></i> détails</a>
+</p>
+</div>
