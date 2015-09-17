@@ -12,6 +12,11 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
+      .when('/:slug', {
+        templateUrl: 'app/soiree/soiree.html',
+        controller: 'SoireeController',
+        controllerAs: 'soiree'
+      })
       .otherwise({
         redirectTo: '/'
       });
