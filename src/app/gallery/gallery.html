@@ -1,0 +1,24 @@
+<form class="search">
+	<fieldset class="form-group">
+	    <label for="filter" class="sr-only">Filtre</label>
+	    <div class="input-group">
+      		<div class="input-group-addon"><i class="fa fa-search"></i></div>
+	    	<input type="text" class="form-control" id="filter" placeholder="Filtrer sur" ng-model="search">
+	    </div>
+	  </fieldset>
+</form>
+
+<div class="gallery">
+	
+	<figure ng-repeat="soiree in g.soirees | orderBy : '-id' | filter: search" class="effect-chico">
+	
+	    <img src="assets/thumbnails/{{ soiree.slug }}.jpg" alt="{{ soiree.name }}" class="img-responsive">
+	    <figcaption>
+	    	<h2 class="h4">{{ soiree.name }}</h2>
+			<p>{{ soiree.date }}</p>
+	    	<a href="#/{{ soiree.slug }}" class="btn btn-primary-outline">détails</a>
+	    </figcaption>
+		
+	</figure>
+
+</div>
