@@ -2,81 +2,113 @@
   {
     "id" : 0,
     "slug" : "part1",
-    "name" : "part 1"
+    "name" : "part 1",
+    "date" : "1er avril 2006",
+    "artists" : ["davlebill", "menthine", "fat freddy", "oil b", "drjdlow", "karlotta", "akka veejays", "miss chémar", "psychetic"] 
   },
   {
     "id" : 1,
     "slug" : "part2",
-    "name" : "part 2"
+    "name" : "part 2",
+    "date" : "3 novembre 2006",
+    "artists" : ["chou", "oil b", "the youngsters", "miss chémar", "charlie mars", "anartiste"] 
   },
   {
     "id" : 2,
     "slug" : "part3",
-    "name" : "part 3"
+    "name" : "part 3",
+    "date" : "5 mai 2007",
+    "artists" : ["james ruskin", "run x", "sonic crew"] 
   },
   {
     "id" : 3,
     "slug" : "part4",
-    "name" : "part 4"
+    "name" : "part 4",
+    "date" : "29 septembre 2007",
+    "artists" : ["lowkey", "pat panik", "leven", "fat freddy", "akka veejays", "koniec", "soap fanzine"] 
   },
   {
     "id" : 4,
     "slug" : "pick",
-    "name" : "Pick your djs"
+    "name" : "Pick your djs",
+    "date" : "31 décembre 2007",
+    "artists" : ["davlebill", "pat panik", "lady late", "hip j", "oil b", "tarik n djamel", "reflex", "k-lymero", "itrema", "katell", "stratege", "brim brim", "the edger", "scouap", "akka veejays", "soap fanzine"] 
   },
   {
     "id" : 5,
     "slug" : "technorama",
-    "name" : "technorama"
+    "name" : "technorama",
+    "date" : "8 mars 2008",
+    "artists" : ["steve rachmad", "dj jee", "oxyd", "squaat", "eyescore", "akka veejays"] 
   },
   {
     "id" : 6,
     "slug" : "boo",
-    "name" : "booooo"
+    "name" : "booooo",
+    "date" : "1er novembre 2008",
+    "artists" : ["nicolas masseyeff", "sonic crew", "drjdlow", "akka veejays", "jonat"] 
   },
   {
     "id" : 7,
-    "slug" : "pi",
-    "name" : "le printemps industriel"
+    "slug" : "printemps-industriel",
+    "name" : "le printemps industriel",
+    "date" : "18 avril 2009",
+    "artists" : ["raudive aka oliver ho", "hip j", "oil b", "akka veejays", "wos", "menthine"] 
   },
   {
     "id" : 8,
     "slug" : "close-up",
-    "name" : "close up"
+    "name" : "close up",
+    "date" : "3 avril 2010",
+    "artists" : ["rodriguez jr", "oil b", "bood 2"] 
   },
   {
     "id" : 9,
     "slug" : "happyskull",
-    "name" : "happy skull"
+    "name" : "happy skull",
+    "date" : "19 février 2011",
+    "artists" : ["lady late", "jak deejay", "adjectif & tony j cut", "katell & stratege"] 
   },
   {
     "id" : 10,
     "slug" : "mechants",
-    "name" : "les méchants"
+    "name" : "les méchants",
+    "date" : "9 avril 2011",
+    "artists" : ["fat freddy", "mkl", "black ham", "miss chémar", "electromeca"] 
   },
   {
     "id" : 11,
     "slug" : "dopdod",
-    "name" : "Dope DOD"
+    "name" : "Dope DOD",
+    "date" : "18 février 2012",
+    "artists" : ["dop dod", "didier sambal", "fat freddy", "micronologie", "endless summer"] 
   },
   {
     "id" : 12,
     "slug" : "skinjackin",
-    "name" : "Skinjackin"
+    "name" : "Skinjackin",
+    "date" : "28 avril 2012",
+    "artists" : ["phil kieran", "red sunrise", "ecko", "drjdlow"] 
   },
   {
     "id" : 13,
     "slug" : "versatile",
-    "name" : "Versatile"
+    "name" : "Versatile",
+    "date" : "16 mars 2013",
+    "artists" : ["gilb r", "oil b", "monkey analow", "squaat"] 
   },
   {
     "id" : 14,
     "slug" : "electricparty",
-    "name" : "Electric Party"
+    "name" : "Electric Party",
+    "date" : "1er février 2014",
+    "artists" : ["madben", "do you copy ?", "azano", "menthine"] 
   },
   {
     "id" : 15,
     "slug" : "love",
-    "name" : "Love"
+    "name" : "Love",
+    "date" : "14 février 2015",
+    "artists" : ["reinhard voigt", "f.e.m", "yann lean", "darijade", "menthine"]
   }
 ]
