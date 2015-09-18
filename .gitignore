@@ -4,6 +4,3 @@ bower_components/
 .idea/
 .tmp/
 dist/
-
-# ignore img
-src/assets
