@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('openfader', ['ngRoute', 'ngMaterial']);
+    .module('openfader', ['ngRoute']);
 
 })();
