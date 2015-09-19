@@ -16,6 +16,10 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
+body {
+  background: url(../assets/bg.png);
+}
+
 .wrapper {
   padding: 1em;
   display: flex;
@@ -48,6 +52,7 @@ html {
   margin: 0 0.8em 0.8em 0;
   text-align: center;
   cursor: pointer;
+  background: #000;
 }
 
 @include media-breakpoint-down(sm) { 
@@ -98,8 +103,10 @@ html {
 }
 
 .gallery figure h2 {
-  word-spacing: -0.15em;
+  word-spacing: -0.1em;
   font-weight: 300;
+  text-transform: uppercase;
+  font-size: 85%;
 }
 
 .gallery figure h2 span {
@@ -128,7 +135,7 @@ figure.effect-chico img {
 }
 
 figure.effect-chico:hover img {
-  opacity: 0.3;
+  opacity: 0.2;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
